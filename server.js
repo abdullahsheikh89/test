@@ -11,7 +11,7 @@ io.set("log level", 1);
 server.listen(8080);
 
 
-app.get('/',function (req,res) {
+app.get('https://videocll.herokuapp.com/',function (req,res) {
 	res.sendfile(__dirname+'/index.html');
 });
 
